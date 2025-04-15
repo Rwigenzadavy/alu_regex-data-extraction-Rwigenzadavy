@@ -1,16 +1,16 @@
-Regex Data Extraction
+# Regex Data Extraction
 
-Project Overview
+## Project Overview
 
 This project utilizes Regular Expressions (Regex) in Python to extract structured data, including email addresses, URLs, phone numbers, credit card numbers, and time formats, from unstructured text.
 
-Key Features
+# Key Features
 
 Extracts emails, URLs, phone numbers, credit card numbers, and time formats from text. Implements Python's re module for regular expression matching. Organized into separate, modular functions for each type of data extraction. Structured as a Python package, making it easy to integrate into other projects.
 
-How to Use
+# How to Use
 
-Sample Input Data
+## Sample Input Data
 
 python Copy input_data = """ Contact us at support@example.com or visit our site https://www.example.com. Call (123) 456-7890 or 123-456-7890 for assistance. Your credit card 1234-5678-9012-3456 is charged $19.99. Meeting at 14:30 and another at 2:30 PM. """ Function Calls and Output
 
